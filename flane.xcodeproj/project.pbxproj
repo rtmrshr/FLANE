@@ -9,23 +9,28 @@
 /* Begin PBXBuildFile section */
 		F94C63B229A61FC000984E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C63B129A61FC000984E40 /* AppDelegate.swift */; };
 		F94C63B429A61FC000984E40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C63B329A61FC000984E40 /* SceneDelegate.swift */; };
-		F94C63B629A61FC000984E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C63B529A61FC000984E40 /* ViewController.swift */; };
-		F94C63B929A61FC000984E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94C63B729A61FC000984E40 /* Main.storyboard */; };
+		F94C63B629A61FC000984E40 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C63B529A61FC000984E40 /* TabBarViewController.swift */; };
 		F94C63BC29A61FC000984E40 /* flane.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F94C63BA29A61FC000984E40 /* flane.xcdatamodeld */; };
 		F94C63BE29A61FC200984E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94C63BD29A61FC200984E40 /* Assets.xcassets */; };
 		F94C63C129A61FC200984E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94C63BF29A61FC200984E40 /* LaunchScreen.storyboard */; };
+		F94C63CA29A6216900984E40 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = F94C63C929A6216900984E40 /* MapboxMaps */; };
+		F94C63CC29A6230D00984E40 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C63CB29A6230D00984E40 /* MapViewController.swift */; };
+		F94C63CE29A6235F00984E40 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C63CD29A6235F00984E40 /* SettingsViewController.swift */; };
+		F94C63D029A6237100984E40 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C63CF29A6237100984E40 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F94C63AE29A61FC000984E40 /* flane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94C63B129A61FC000984E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F94C63B329A61FC000984E40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F94C63B529A61FC000984E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F94C63B829A61FC000984E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F94C63B529A61FC000984E40 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		F94C63BB29A61FC000984E40 /* flane.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = flane.xcdatamodel; sourceTree = "<group>"; };
 		F94C63BD29A61FC200984E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F94C63C029A61FC200984E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F94C63C229A61FC200984E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94C63CB29A6230D00984E40 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F94C63CD29A6235F00984E40 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F94C63CF29A6237100984E40 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94C63CA29A6216900984E40 /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +66,10 @@
 			children = (
 				F94C63B129A61FC000984E40 /* AppDelegate.swift */,
 				F94C63B329A61FC000984E40 /* SceneDelegate.swift */,
-				F94C63B529A61FC000984E40 /* ViewController.swift */,
-				F94C63B729A61FC000984E40 /* Main.storyboard */,
+				F94C63B529A61FC000984E40 /* TabBarViewController.swift */,
+				F94C63CB29A6230D00984E40 /* MapViewController.swift */,
+				F94C63CF29A6237100984E40 /* SearchViewController.swift */,
+				F94C63CD29A6235F00984E40 /* SettingsViewController.swift */,
 				F94C63BD29A61FC200984E40 /* Assets.xcassets */,
 				F94C63BF29A61FC200984E40 /* LaunchScreen.storyboard */,
 				F94C63C229A61FC200984E40 /* Info.plist */,
@@ -86,6 +94,9 @@
 			dependencies = (
 			);
 			name = flane;
+			packageProductDependencies = (
+				F94C63C929A6216900984E40 /* MapboxMaps */,
+			);
 			productName = flane;
 			productReference = F94C63AE29A61FC000984E40 /* flane.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +125,9 @@
 				Base,
 			);
 			mainGroup = F94C63A529A61FC000984E40;
+			packageReferences = (
+				F94C63C829A6216900984E40 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
 			productRefGroup = F94C63AF29A61FC000984E40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +144,6 @@
 			files = (
 				F94C63C129A61FC200984E40 /* LaunchScreen.storyboard in Resources */,
 				F94C63BE29A61FC200984E40 /* Assets.xcassets in Resources */,
-				F94C63B929A61FC000984E40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +155,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94C63BC29A61FC000984E40 /* flane.xcdatamodeld in Sources */,
-				F94C63B629A61FC000984E40 /* ViewController.swift in Sources */,
+				F94C63D029A6237100984E40 /* SearchViewController.swift in Sources */,
+				F94C63B629A61FC000984E40 /* TabBarViewController.swift in Sources */,
 				F94C63B229A61FC000984E40 /* AppDelegate.swift in Sources */,
+				F94C63CC29A6230D00984E40 /* MapViewController.swift in Sources */,
 				F94C63B429A61FC000984E40 /* SceneDelegate.swift in Sources */,
+				F94C63CE29A6235F00984E40 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F94C63B729A61FC000984E40 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F94C63B829A61FC000984E40 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F94C63BF29A61FC200984E40 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,11 +302,13 @@
 				DEVELOPMENT_TEAM = L536Q9UMC4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = flane/Info.plist;
+				INFOPLIST_KEY_NSLocationTemporaryUsageDescriptionDictionary = LocationAccuracyAuthorizationDescription;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,11 +332,13 @@
 				DEVELOPMENT_TEAM = L536Q9UMC4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = flane/Info.plist;
+				INFOPLIST_KEY_NSLocationTemporaryUsageDescriptionDictionary = LocationAccuracyAuthorizationDescription;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +374,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F94C63C829A6216900984E40 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F94C63C929A6216900984E40 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F94C63C829A6216900984E40 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F94C63BA29A61FC000984E40 /* flane.xcdatamodeld */ = {
